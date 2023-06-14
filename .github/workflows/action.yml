@@ -1,4 +1,4 @@
-name: Find LaunchDarkly flag code references
+name: Find LaunchDarkly flag code references 
 on: push
 # cancel in-flight workflow run if another push was triggered
 concurrency:

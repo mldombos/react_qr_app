@@ -20,7 +20,7 @@ let id = getUserId();
       custom: {
         device: deviceType,
         operatingSystem: osName,
-        privateAttributeNames: [device]
+        privateAttributeNames: [device],
       },
     },
   });

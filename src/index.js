@@ -16,7 +16,7 @@ let id = getUserId();
     clientSideID: CLIENTKEY,
     user: {
       key: id,
-      privateAttributeNames: ['anonymous'],
+      privateAttributeNames: ['"anonymous"'],
       //dynamically set these custom attributes using the deviceType and osName selectors from the npm package
       custom: {
         device: deviceType,
